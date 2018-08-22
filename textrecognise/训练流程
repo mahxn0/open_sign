@@ -1,0 +1,5 @@
+1. 获取图片后，利用 createtxtlabel.py，每个图片中待识别文字，写入对应的 txt 中，txt名字与图片名一致，放在统一文件夹下；
+
+2. 修改 utils.py 中内容，训练数据路径、保存结果路径（checkpoint），num_classes为需要识别的总字符数，decode_maps 为需要识别的各个字符，根据实际情况修改；
+
+3. 在终端运行 python3 train.py
